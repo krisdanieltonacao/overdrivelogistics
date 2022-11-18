@@ -1,0 +1,79 @@
+#divFooter {
+  height: 50px;
+  background-color: #222831;
+  color: white;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+}
+
+#divSmFooter {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 800px) {
+  #divFooter {
+    height: 50px;
+    background-color: #222831;
+    color: white;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+  }
+  #divSmFooter {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  #divFooter {
+    height: 70px;
+    background-color: #222831;
+    color: white;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+  }
+  #divSmFooter {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+@media (max-width: 420px) {
+  #divFooter {
+    height: 110px;
+    background-color: #222831;
+    color: white;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+  }
+  #divSmFooter {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+@media (max-width: 400px) {
+  #divFooter {
+    height: 100px;
+    background-color: #222831;
+    color: white;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+  }
+  #divSmFooter {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
