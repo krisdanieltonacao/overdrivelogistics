@@ -1,31 +1,43 @@
-#divLanding {
-  display: flex;
-}
-#divSlogan {
-  width: 50%;
-}
-#courierGuy {
-  width: 960px;
-  height: 680px;
+.img-hor {
+  transform: rotateY(180deg);
 }
 
-h1 {
-  margin-top: 200px;
-  text-align: center;
+#divBtn {
+  font-weight: 500;
+  padding-top: 5%;
 }
-#slogan {
-  margin-top: 50px;
-  text-align: center;
-  font-size: 28px;
+
+#divLanding{
+  margin-top: 10%;
 }
-#btnDiv {
-  text-align: center;
+
+#h1Landing{
+  font-size: 80px;
 }
-#btnClickHere {
-  font-size: 28px;
+#divQuote{
+  font-size: 36px;
+}
+#divTesti{
+  background-color: #393E46;
+  height: 30vh;
   color: white;
-  background-color: #d65a31;
-  margin-top: 30px;
-  width: 180px;
-  align-items: center;
-}
+  font-size: 30px;
+ }
+ #divTestiBody{
+  padding: 15px;
+ }
+/* @media only screen and (max-width: 0px){
+
+} */
+
+@media (max-width: 1440px) {
+  #divTesti{
+    background-color: #393E46;
+    height: 40vh;
+    color: white;
+    font-size: 30px;
+   }
+   #divTestiBody{
+    padding: 15px;
+   }
+  }
